@@ -3,7 +3,7 @@ import { Text } from 'react-native';
 
 const Primeiro = () => {
     return (
-        <Text>Primeiro!</Text>
+        <Text>Primeiro!!!!!</Text>
     )
 }
 
