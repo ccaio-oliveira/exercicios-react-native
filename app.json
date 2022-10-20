@@ -11,6 +11,8 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "owner": "ccaio-oliveira",
+    "slug": "exercicios",
     "updates": {
       "fallbackToCacheTimeout": 0
     },
