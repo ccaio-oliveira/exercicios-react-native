@@ -4,6 +4,7 @@ import { View, Platform, StatusBar, StyleSheet } from "react-native";
 // import Comp, { Comp1, Comp2 } from './components/Multi';
 // import Primeiro from './components/Primeiro';
 import MinMax from "./components/MinMax";
+import Aleatorio from "./components/Aleatorio";
 
 const App = () => {
     return (
@@ -12,7 +13,16 @@ const App = () => {
             <Comp1 />
             <Comp2 />
             <Primeiro /> */}
-            <MinMax />
+            <MinMax min="3" max="20" />
+            <Aleatorio min={1} max={60} />
+            <Aleatorio min={1} max={60} />
+            <Aleatorio min={1} max={60} />
+            <Aleatorio min={1} max={60} />
+            <Aleatorio min={1} max={60} />
+            <Aleatorio min={1} max={60} />
+            <Aleatorio min={1} max={60} />
+            <Aleatorio min={1} max={60} />
+            <Aleatorio min={1} max={60} />
         </View>
     )
 }
