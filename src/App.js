@@ -9,6 +9,7 @@ import { View, Platform, StatusBar, StyleSheet } from "react-native";
 // import Botao from "./components/Botao";
 // import Contador from "./components/Contador";
 import Pai from "./components/indireta/Pai";
+import ContadorV2 from "./components/contador/ContadorV2";
 
 const App = () => {
     return (
@@ -27,7 +28,8 @@ const App = () => {
             <Botao /> */}
             {/* <Contador inicial={100} passo={13}/>
             <Contador passo={20} /> */}
-            <Pai />
+            {/* <Pai /> */}
+            <ContadorV2 />
         </View>
     )
 }

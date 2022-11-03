@@ -1,0 +1,19 @@
+{
+	"Componente funcional": {
+		"scope": "javascript",
+		"prefix": "compfunc",
+		"body": [
+			"import React from 'react';",
+			"import { Text } from 'react-native';",
+			"",
+			"export default () => {",
+			"    return (",
+			"        <>",
+			"            ",
+			"        </>",
+			"    )",
+			"}",
+		],
+		"description": "Log output to console"
+	}
+}
