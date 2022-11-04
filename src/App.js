@@ -11,7 +11,8 @@ import { View, Platform, StatusBar, StyleSheet } from "react-native";
 // import Pai from "./components/indireta/Pai";
 // import ContadorV2 from "./components/contador/ContadorV2";
 // import Diferenciar from "./components/Diferenciar";
-import ParImpar from "./components/ParImpar";
+// import ParImpar from "./components/ParImpar";
+import Pai from "./components/relacao/Pai";
 
 const App = () => {
     return (
@@ -33,7 +34,8 @@ const App = () => {
             {/* <Pai /> */}
             {/* <ContadorV2 /> */}
             {/* <Diferenciar /> */}
-            <ParImpar num={5}  />
+            {/* <ParImpar num={5}  /> */}
+            <Pai />
         </View>
     )
 }
