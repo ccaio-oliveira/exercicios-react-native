@@ -8,8 +8,10 @@ import { View, Platform, StatusBar, StyleSheet } from "react-native";
 // import Titulo from "./components/Titulo";
 // import Botao from "./components/Botao";
 // import Contador from "./components/Contador";
-import Pai from "./components/indireta/Pai";
-import ContadorV2 from "./components/contador/ContadorV2";
+// import Pai from "./components/indireta/Pai";
+// import ContadorV2 from "./components/contador/ContadorV2";
+// import Diferenciar from "./components/Diferenciar";
+import ParImpar from "./components/ParImpar";
 
 const App = () => {
     return (
@@ -29,7 +31,9 @@ const App = () => {
             {/* <Contador inicial={100} passo={13}/>
             <Contador passo={20} /> */}
             {/* <Pai /> */}
-            <ContadorV2 />
+            {/* <ContadorV2 /> */}
+            {/* <Diferenciar /> */}
+            <ParImpar num={5}  />
         </View>
     )
 }
