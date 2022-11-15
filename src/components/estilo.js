@@ -5,9 +5,6 @@ export default StyleSheet.create({
         fontSize: 30,
         textAlign: "center",
     },
-    family: {
-        marginBottom: 20
-    },
     txtM: {
         fontSize: 20
     }

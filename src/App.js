@@ -1,7 +1,13 @@
 import React from "react";
 import { View, Platform, StatusBar, StyleSheet } from "react-native";
-import UsuarioLogado from "./components/UsuarioLogado";
+import FlexboxV1 from "./components/layout/FlexboxV1";
+import FlexBoxV2 from "./components/layout/FlexBoxV2";
+import Quadrado from "./components/layout/Quadrado";
 
+// import DigiteSeuNome from "./components/DigiteSeuNome";
+// import ListaProdutosV2 from "./components/produtos/ListaProdutosV2";
+// import ListaProdutos from "./components/produtos/ListaProdutos";
+// import UsuarioLogado from "./components/UsuarioLogado";
 // import Comp, { Comp1, Comp2 } from './components/Multi';
 // import Primeiro from './components/Primeiro';
 // import MinMax from "./components/MinMax";
@@ -47,11 +53,16 @@ const App = () => {
                 <Membro nome="Gui" sobrenome="Silva" />
                 <Membro nome="Rebeca" sobrenome="Silva" />
             </Familia> */}
-            <UsuarioLogado usuario={{ nome: 'Caio', email: 'ccaio.oliveira82@gmail.com' }} />
+            {/* <UsuarioLogado usuario={{ nome: 'Caio', email: 'ccaio.oliveira82@gmail.com' }} />
             <UsuarioLogado usuario={{ nome: 'Caio' }} />
             <UsuarioLogado usuario={{ email: 'carlos@empresa.com' }} />
             <UsuarioLogado usuario={null} />
-            <UsuarioLogado usuario={{}} />
+            <UsuarioLogado usuario={{}} /> */}
+            {/* <ListaProdutos /> */}
+            {/* <ListaProdutosV2 /> */}
+            {/* <DigiteSeuNome /> */}
+            {/* <FlexboxV1 /> */}
+            <FlexBoxV2 />
         </View>
     )
 }
