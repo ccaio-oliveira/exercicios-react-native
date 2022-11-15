@@ -1,9 +1,11 @@
 import React from "react";
 import { View, Platform, StatusBar, StyleSheet } from "react-native";
-import FlexboxV1 from "./components/layout/FlexboxV1";
-import FlexBoxV2 from "./components/layout/FlexBoxV2";
-import Quadrado from "./components/layout/Quadrado";
+import FlexBoxV4 from "./components/layout/FlexBoxV4";
 
+// import FlexBoxV3 from "./components/layout/FlexBoxV3";
+// import FlexboxV1 from "./components/layout/FlexboxV1";
+// import FlexBoxV2 from "./components/layout/FlexBoxV2";
+// import Quadrado from "./components/layout/Quadrado";
 // import DigiteSeuNome from "./components/DigiteSeuNome";
 // import ListaProdutosV2 from "./components/produtos/ListaProdutosV2";
 // import ListaProdutos from "./components/produtos/ListaProdutos";
@@ -62,7 +64,9 @@ const App = () => {
             {/* <ListaProdutosV2 /> */}
             {/* <DigiteSeuNome /> */}
             {/* <FlexboxV1 /> */}
-            <FlexBoxV2 />
+            {/* <FlexBoxV2 /> */}
+            {/* <FlexBoxV3 /> */}
+            <FlexBoxV4 />
         </View>
     )
 }

@@ -17,8 +17,9 @@ export default () => {
 const style = StyleSheet.create({
     flexV2: {
         width: '100%',
-        alignItems: 'flex-start',
+        alignItems: 'flex-end',
         backgroundColor: '#303030',
-        justifyContent: 'space-between'
+        justifyContent: 'space-evenly',
+        flex: 1
     }
 })
