@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Platform, StatusBar, StyleSheet } from "react-native";
 import FlexBoxV4 from "./components/layout/FlexBoxV4";
+import Mega from "./components/mega/Mega";
 
 // import FlexBoxV3 from "./components/layout/FlexBoxV3";
 // import FlexboxV1 from "./components/layout/FlexboxV1";
@@ -66,7 +67,8 @@ const App = () => {
             {/* <FlexboxV1 /> */}
             {/* <FlexBoxV2 /> */}
             {/* <FlexBoxV3 /> */}
-            <FlexBoxV4 />
+            {/* <FlexBoxV4 /> */}
+            <Mega qtdeNumeros={12} />
         </View>
     )
 }
